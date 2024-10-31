@@ -41,3 +41,7 @@ RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 561F9B9CAC
   && apt-get update && apt-get install -y --no-install-recommends libnginx-mod-http-passenger \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
+
+
+# docker build -t mariojorge/docker-nginx-ruby-2.6.3 .
+# docker push mariojorge/docker-nginx-ruby-2.6.3
