@@ -18,6 +18,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   libcurl4-openssl-dev \
   nginx \
   nano \
+  cron \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
   #gcc \
