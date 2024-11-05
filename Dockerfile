@@ -13,6 +13,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
   imagemagick \
   libmagickwand-dev \
   wget \
+  file \
   curl \
   zlib1g-dev \
   libcurl4-openssl-dev \
